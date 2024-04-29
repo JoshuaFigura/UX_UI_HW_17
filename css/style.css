@@ -1,6 +1,8 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logo {
@@ -14,9 +16,9 @@ nav {
     padding: 1%;
 }
 
-.heder {
+.header {
     width: 40%;
-    margin-left: auto;
+    margin-left: 1350px;
 }
 
 .heroimg {
@@ -27,10 +29,11 @@ nav {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
-footer {
-    background-color: #373738
+.footerNav {
+    margin-left: 1400px;
 }
 
 .footerNav {
@@ -40,5 +43,23 @@ footer {
 }
 
 button {
-    align-items: center;
+    color: white;
+    background-color: #014421;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px  ;
+    color: #014421;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 17px;
+}
+
+img {
+    margin-left: 10px;
 }
